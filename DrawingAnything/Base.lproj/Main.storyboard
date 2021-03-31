@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,45 +24,38 @@
                                 <rect key="frame" x="0.0" y="637" width="375" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMA-fZ-3sd">
-                                        <rect key="frame" x="0.0" y="0.0" width="44" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="46.5" height="30"/>
                                         <state key="normal" title="Undo"/>
                                         <connections>
                                             <action selector="undoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJO-Dh-HOQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUH-ue-ped">
-                                        <rect key="frame" x="44" y="0.0" width="42.5" height="30"/>
+                                        <rect key="frame" x="46.5" y="0.0" width="45.5" height="30"/>
                                         <state key="normal" title="Clear"/>
                                         <connections>
                                             <action selector="clearAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXE-w5-RZO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fql-IC-mnz">
-                                        <rect key="frame" x="86.5" y="8" width="22.5" height="22"/>
-                                        <state key="normal" image="square.and.arrow.down" catalog="system"/>
-                                        <connections>
-                                            <action selector="saveAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pdh-aD-w9y"/>
-                                        </connections>
-                                    </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="b4c-UI-Lb1">
-                                        <rect key="frame" x="109" y="0.0" width="146" height="30"/>
+                                        <rect key="frame" x="92" y="0.0" width="163" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mda-Zh-EgE">
-                                                <rect key="frame" x="0.0" y="0.0" width="45.5" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <connections>
                                                     <action selector="yellowAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0re-Be-qEH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsJ-L2-eoN">
-                                                <rect key="frame" x="50.5" y="0.0" width="45" height="30"/>
+                                                <rect key="frame" x="56" y="0.0" width="51" height="30"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <connections>
                                                     <action selector="redAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTD-HC-I3a"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kt7-ua-fhB">
-                                                <rect key="frame" x="100.5" y="0.0" width="45.5" height="30"/>
+                                                <rect key="frame" x="112" y="0.0" width="51" height="30"/>
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <connections>
                                                     <action selector="bkueAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rRT-Qs-8JR"/>
@@ -90,7 +83,7 @@
                             <constraint firstItem="p5j-gI-jAc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TMJ-gL-Q2C"/>
                             <constraint firstItem="p5j-gI-jAc" firstAttribute="top" secondItem="LSJ-nC-T86" secondAttribute="bottom" constant="8" symbolic="YES" id="bUa-Ue-9KT"/>
                             <constraint firstItem="p5j-gI-jAc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iXJ-JC-XGx"/>
-                            <constraint firstAttribute="bottom" secondItem="p5j-gI-jAc" secondAttribute="bottom" id="otM-bo-LWE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p5j-gI-jAc" secondAttribute="bottom" id="otM-bo-LWE"/>
                             <constraint firstItem="LSJ-nC-T86" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="siO-dX-wnm"/>
                         </constraints>
                     </view>
@@ -105,7 +98,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
